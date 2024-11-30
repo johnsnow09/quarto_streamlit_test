@@ -1,0 +1,32 @@
+---
+title: "Test File"
+format: html
+html:
+embed-resources: true
+smooth-scroll: true
+code-tools:
+    source: false
+    toggle: false
+    caption: none
+execute:
+  echo: False
+jupyter: python3
+theme: 
+  light: lux
+  dark: [lux, theme-dark.scss]
+---
+
+# Title
+
+
+
+```{python}
+import streamlit as st
+from streamlit import session_state
+```
+
+
+this is the variable value coming from streamlit: {{< var variable_check >}}
+
+
+---

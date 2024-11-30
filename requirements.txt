@@ -1,0 +1,5 @@
+quarto==1.5.57
+streamlit==1.38.0
+nbclient==0.10.1
+nbformat==5.10.4
+pandas==2.2.2
